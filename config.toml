@@ -1,6 +1,6 @@
 baseurl = ""
 title = "mcht"
-theme = "hugo-theme-cleanwhite"
+theme = "hugo-themes-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
