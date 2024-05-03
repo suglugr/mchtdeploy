@@ -5,7 +5,7 @@ subtitle:   "DJ CDMX"
 description: "SKATEBOARD PHOTOGRAPHY"
 date:       2018-02-09 11:00:00
 author:     "Cinco Seis"
-image:      "//live.staticflickr.com/65535/53674052957_739f11fc7c_n.jpg"
+image:      "//live.staticflickr.com/65535/53675145738_69f5a606ea.jpg"
 published: true
 tags:
     - Skateboarding
