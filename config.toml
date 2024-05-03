@@ -9,7 +9,7 @@ preserveTaxonomyNames = true
 paginate = 5 #frontpage pagination
 hasCJKLanguage = true
     
-[markup.goldmark.renderer]
+git [markup.goldmark.renderer]
  unsafe = true
 
 [outputs]
