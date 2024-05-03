@@ -1,0 +1,117 @@
+baseurl = ""
+title = "mcht"
+theme = "hugo-theme-cleanwhite"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+googleAnalytics = ""
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+hasCJKLanguage = true
+    
+[markup.goldmark.renderer]
+ unsafe = true
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+
+[params]
+  header_image = "/img/banner2.jpg"
+  SEOTitle = "MCHT MEDIA "
+  description = "|SKATEBOARDING BMX GRAFFITTI"
+  keyword = "skateboarding,bmx,graffitti,hip hop, reggaeton, mexico, cdmx, femenil, huatulco, puebla, texcoco, machete, fotografia, photography"
+  slogan = "MACHETEMDIA"
+  upstreamAttribution = true
+
+  image_404 = "img/banner1.jpg"
+  title_404 = "PAGE NOT FOUND :("
+  omit_categories = false
+
+  # leancloud storage for page view counter
+  page_view_conter = false 
+  leancloud_app_id = ""
+  leancloud_app_key = ""
+
+  # algolia site search
+  algolia_search = true
+  algolia_appId = ""
+  algolia_indexName = ""
+  algolia_apiKey = ""
+
+  # Sidebar settings
+  sidebar_about_description = "Machete Mdia un colectivo formado en SAN SALVADOR ATENCO"
+  #sidebar_avatar = "/img/presskit.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "/img/presskit.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+  featured_tags = true 
+  featured_condition_size = 1 
+
+  # Baidu Analytics
+  ba_track_id = ""
+  
+  # We need a proxy to access Disqus api in China
+  # Follow https://github.com/zhaohuabing/disqus-php-api to set up your own disqus proxy
+  disqus_proxy = ""
+  disqus_site = ""
+
+  # Twikoo comments
+  # Follow https://twikoo.js.org/ to set up your own env_id
+  twikoo_env_id = ""
+
+  #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
+  reward = true 
+  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
+
+  friends = true
+  bookmarks = false
+  about_me = true
+
+  # Include any custom CSS and/or JS files, url or relative to /static folder
+  #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
+  #custom_js = ["js/lightbox.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js", "js/main.js"]
+
+  [params.social]
+  rss            = true 
+  email          = "machetemdia@gmail.com"
+  facebook      = "https://www.facebook.com/machetemdia"
+  instagram     = "https://www.instagram.com/machete_mdia"
+  
+  [[params.friend_link]]
+  title = "Gallito Skate"
+  href =  "https://www.instagram.com/gallito_skate"
+
+  [[params.friend_link]]
+  title = "Max Medina"
+  href =  "https://www.instagram.com/macsmedinator"
+
+    [[params.friend_link]]
+  title = "REOS"
+  href =  "https://www.instagram.com/reosletters_tattoo"
+  
+  
+  
+  
+  [[params.addtional_menus]]
+  title =  "ARCHIVE"
+  href =  "/archive/"
+
+  [[params.addtional_menus]]
+  title =  "PRESSKIT"
+  href =  "/presskit/"
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"] 
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    startLevel = 1
+  [markup.highlight]
+    style = "dracula"
