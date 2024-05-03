@@ -9,8 +9,7 @@ preserveTaxonomyNames = true
 paginate = 5 #frontpage pagination
 hasCJKLanguage = true
     
-git = [markup.goldmark.renderer]
- unsafe = true
+
 
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
