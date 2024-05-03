@@ -3,14 +3,14 @@ layout:     post
 title:      "Hot Chilee"
 subtitle:   "DJ CDMX"
 description: "CONCERT PHOTOGRAPHY"
-date:       2018-02-09 11:00:00
+date:       2022-04-18 11:00:00
 author:     "Cinco Seis"
 image:      "//live.staticflickr.com/65535/53674052957_739f11fc7c_n.jpg"
 published: true
 tags:
     - Texcoco
     - Concert
-URL: "/2018/02/09/Hot-Chilee/"
+URL: "/2022/04/18/Hot-Chilee/"
 
 ---
 

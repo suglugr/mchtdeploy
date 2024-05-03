@@ -3,14 +3,14 @@ layout:     post
 title:      "Jala Pa Xalapa"
 subtitle:   "DJ CDMX"
 description: "HIP HOP THEMED PHOTOGRAPHY"
-date:       2018-02-09 11:00:00
+date:       2022-05-02 11:00:00
 author:     "Cinco Seis"
 image:      "//live.staticflickr.com/65535/53674052957_739f11fc7c_n.jpg"
 published: true
 tags:
     - Hip Hop
     - Concert
-URL: "/2018/02/09/vim-tips/"
+URL: "/2022/05/02/vim-tips/"
 
 ---
 

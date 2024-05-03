@@ -3,14 +3,14 @@ layout:     post
 title:      "Juntas Hacemos Mas"
 subtitle:   "DJ CDMX"
 description: "HIP HOP THEMED PHOTOGRAPHY"
-date:       2018-02-09 11:00:00
+date:       2022-05-03 11:00:00
 author:     "Cinco Seis"
 image:      "//live.staticflickr.com/65535/53674052957_739f11fc7c_n.jpg"
 published: true
 tags:
     - Graffitti
     
-URL: "/2018/02/09/Juntas-Hacemos-Mas/"
+URL: "/2022/05/03/Juntas-Hacemos-Mas/"
 
 ---
 
