@@ -1,5 +1,5 @@
 baseurl = ""
-title = "mcht"
+title = ""
 theme = "hugo-themes-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -59,7 +59,7 @@ home = ["HTML", "RSS", "Algolia"]
   twikoo_env_id = ""
 
   #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
-  reward = true 
+  reward = false 
   # reward_guide = "如果这篇文章对你有用,请随意打赏" 
 
   friends = true
