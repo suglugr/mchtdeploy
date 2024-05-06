@@ -40,8 +40,8 @@ home = ["HTML", "RSS", "Algolia"]
 
   # Sidebar settings
   sidebar_about_description = "Machete Mdia un colectivo formado en SAN SALVADOR ATENCO"
-  #sidebar_avatar = "/img/presskit.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
-  sidebar_avatar = "/img/presskit.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_avatar = "/img/presskit.jpg"      # use absolute URL, seeing it's used in both `/` and `/presskit/`
+  sidebar_avatar = "/img/presskit.png"      # use absolute URL, seeing it's used in both `/` and `/presskit/`
 
   featured_tags = true 
   featured_condition_size = 1 
